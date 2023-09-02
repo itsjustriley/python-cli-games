@@ -1,0 +1,52 @@
+{
+    "cards": [
+        {
+            "q": "Which school of magic is Disintegrate?",
+            "a": "!",
+            "opt1": "! - Transmutation",
+            "opt2": "@ - Evocation",
+            "opt3": "# - Necromancy"
+
+        },
+        {
+            "q": "Which of these cantrips does not deal damage?",
+            "a": "@",
+            "opt1": "@ - Control Flames",
+            "opt2": "! - Produce Flame",
+            "opt3": "# - Sacred Flame"
+
+        },
+        {
+            "q": "Which of these classes does not learn the Fly spell?",
+            "a": "!",
+            "opt1": "! - Druid",
+            "opt2": "@ - Warlock",
+            "opt3": "# - Artificer"
+
+        },  
+        {
+            "q": "At what level do Paladins make their Oath?",
+            "a": "#",
+            "opt1": "# - Three",
+            "opt2": "! - Two",
+            "opt3": "@ - Five"
+
+        },  
+        {
+            "q": "Which of these does not appear in the Monster Manual?",
+            "a": "@",
+            "opt1": "@ - Gauth",
+            "opt2": "# - Nothic",
+            "opt3": "! - Galeb Duhr"
+
+        },    
+        {
+            "q": "What rarity is a bag of holding?",
+            "a":"!",
+            "opt1": "! - Uncommon",
+            "opt2": "# - Common",
+            "opt3": "@ - Rare"
+
+        }    
+    ]
+}

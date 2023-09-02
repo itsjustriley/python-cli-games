@@ -1,0 +1,44 @@
+{
+    "cards": [
+        {
+            "q": "Which Canadian province has Riley NOT lived in?",
+            "a": "!",
+            "opt1": "! - Quebec",
+            "opt2": "@ - New Brunswick",
+            "opt3": "# - Ontario"
+
+        },
+        {
+            "q": "Which of the following has Riley had as a pet?",
+            "a": "@",
+            "opt1": "@ - Raccoon",
+            "opt2": "! - Rabbit",
+            "opt3": "# - Turtle"
+
+        },
+        {
+            "q": "What is Riley's astrological sun sign?",
+            "a": "!",
+            "opt1": "! - Libra",
+            "opt2": "@ - Aries",
+            "opt3": "# - Virgo"
+
+        },  
+        {
+            "q": "What is Riley's favourite thing to bake?",
+            "a": "#",
+            "opt1": "# - Cheesecake",
+            "opt2": "! - Cupcakes",
+            "opt3": "@ - Bread"
+
+        },  
+        {
+            "q": "What is Riley's favourite season?",
+            "a": "@",
+            "opt1": "@ - Autumn",
+            "opt2": "# - Summer",
+            "opt3": "! - Spring"
+
+        }
+    ]
+}
