@@ -1,2 +1,2 @@
 # python-cli-games
- Python CLI games for ACS 1700
+ Python CLI games for ACS 1100
