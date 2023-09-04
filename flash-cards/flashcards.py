@@ -118,7 +118,7 @@ def startup():
 # calling startup to get the file name for getcards function
 deckchoice = startup()
 deck = getcards(deckchoice)
-random.shuffle(deck)
+random.shuffle(deck["cards"])
 
 if deckchoice == "about-riley.json" or deckchoice == "dnd-trivia.json":
     multiplechoice = True
@@ -149,10 +149,12 @@ while next!=3:
         deckchoice = startup()
         deck = getcards(deckchoice)
         total = len(deck["cards"])
-        random.shuffle(deck)
         if deckchoice == "about-riley.json" or deckchoice == "dnd-trivia.json":
             multiplechoice = True
         else:
             multiplechoice = False
+    random.shuffle(deck["cards"])
     
 print("Thanks for playing! Goodbye.")
+
+# code could be DRYer - function for deck selection/shuffling. 

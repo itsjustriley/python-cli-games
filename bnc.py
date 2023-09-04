@@ -98,7 +98,10 @@ while player == False:
     else:
         print("Let's play!")
     # Get player input
-    player = input("Rock, Paper, Scissors, Lizard, Spock? > ")
+    while player not in roles:
+        player = input("Rock, Paper, Scissors, Lizard, Spock? > ")
+        if player not in roles:
+            print("Invalid input. Please select Rock, Paper, Scissors, Lizard, or Spock.")
 
     # test
     print(f"Player = {player}, Computer = {computer}")
@@ -121,52 +124,3 @@ while player == False:
         computer = roles[randint(0,2)]
     else:
         break
-
-"""     if computer == player:
-      print("DRAW!")
-    elif computer == "Rock": # comp = rock
-        if player == "Paper":
-            print("You win!", player, "covers", computer)
-        elif player == "Spock":
-            print("You win!", player, "vaporizes", computer)
-        elif player == "Scissors":
-           print("You lose!", computer, "crushes", player)
-        else: #lizard
-           print("You lose!", computer, "crushes", player)
-    elif computer == "Paper": # comp = paper
-        if player == "Rock":
-            print("You lose!", computer, "covers", player)
-        elif player == "Spock":
-            print("You lose!", player, "is disproved by", computer)
-        elif player == "Scissors":
-           print("You win!", player, "cuts", computer)
-        else: #lizard
-           print("You win!", player, "eats", computer)
-    elif computer == "Scissors": # comp = scissors
-        if player == "Rock":
-            print("You win!", player, "crushes", computer)
-        elif player == "Spock":
-            print("You win!", player, "smashes", computer)
-        elif player == "Paper":
-           print("You lose!", computer, "cuts", player)
-        else: #lizard
-           print("You lose!", player, "is decapitated by", computer)
-    elif computer == "Lizard": # comp = lizard
-        if player == "Rock":
-            print("You win!", player, "crushes", computer)
-        elif player == "Spock":
-            print("You lose!", computer, "poisons", player)
-        elif player == "Paper":
-           print("You lose!", computer, "eats", player)
-        else: # scissors
-           print("You win!", computer, "is decapitated by", player)
-    elif computer == "Spock": # comp = spock
-        if player == "Rock":
-            print("You lose!", computer, "vaporizes", player)
-        elif player == "Lizard":
-            print("You win!", player, "poisons", computer)
-        elif player == "Paper":
-           print("You win!", player, "disproves", computer)
-        else: # scissors
-           print("You lose!", computer, "crushes", player) """
-
